@@ -53,7 +53,7 @@ starttroll() {
 }
 
 start() {
- bunnyfetch
+ noasciifetch
 }
 
 start
