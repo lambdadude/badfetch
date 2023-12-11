@@ -7,8 +7,7 @@ all:
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
 	@mkdir -p $(DESTDIR)$(MANDIR)/man1
-	@cp -p neofetch $(DESTDIR)$(PREFIX)/bin/badfetch
-	@cp -p neofetch.1 $(DESTDIR)$(MANDIR)/man1
+	@cp -p badfetch $(DESTDIR)$(PREFIX)/bin/badfetch
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/badfetch
 
 uninstall:
